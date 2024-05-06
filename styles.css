@@ -1,0 +1,84 @@
+/* resets some default styles  */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    background-color: #FEFEED;
+	background: #ffe url(images/fade.png) top repeat-x;
+}
+h3 ,h4 ,p {
+	text-align: left-side;
+	margin: 10px;
+}
+
+a {
+	color: #800;
+	padding: 10px;
+}
+
+/*logo's config*/
+.imagecenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:30%;
+}
+
+/*For the boxes in the homepage*/
+.div1 {
+	border: 1px solid;
+	border-color: #800;
+	background: #ffffff;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 0.5em;
+    padding-bottom: 0.5px;
+	
+}
+
+.div1inside {
+	background: #800;
+	color: #ffffff;
+	text-align: left-side;
+	padding: 10px;
+}
+
+.div2 {
+	border: 1px solid;
+	border-color: #800;
+	color: #800;
+	background: #ffffff;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 0.5em;
+    padding-bottom: 0.5px;
+}
+
+.div2inside {
+	background: #fca;
+	color: #800;
+	text-align: left-side;
+	padding: 10px;
+}
+
+/*Modified divs*/
+
+.div1-1 {
+	border: 1px solid;
+	border-color: #800;
+	color: #800;
+	background: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 0.5em;
+    padding-bottom: 0.5px;
+}
+
+.div1-1inside {
+	background: #fca;
+	color: #800;
+	text-align: left-side;
+	padding: 10px;
+}
